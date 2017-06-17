@@ -1,0 +1,20 @@
+{
+  "name": "node-postage-app",
+  "version": "1.0.0",
+  "description": "Postage calculator",
+  "main": "server.js",
+  "scripts": {
+  	"start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "4.13.3"
+  },
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  
+}

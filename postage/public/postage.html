@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Postage Calculator</title>
+</head>
+<body>
+	<h1>Postage Calculator</h1>
+
+	<form action="/postage" method="get">
+	Weight Not Over (oz.):
+	<select name="weight">
+		<option value=1>1</option>
+		<option value=2>2</option>
+		<option value=3>3</option>
+		<option value=3.5>3.5</option>
+		<option value=4>4</option>
+		<option value=5>5</option>
+		<option value=6>6</option>
+		<option value=7>7</option>
+		<option value=8>8</option>
+		<option value=9>9</option>
+		<option value=10>10</option>
+		<option value=11>11</option>
+		<option value=12>12</option>
+		<option value=13>13</option>
+	</select> 
+	Type of mail: 
+	<select name="type">
+		<option value="stamped">Letters (Stamped)</option>
+		<option value="metered">Letters (Metered)</option>
+		<option value="flats">Large Envelops (Flats)</option>
+		<option value="parcels">Parcels</option>
+	</select>
+	
+	<input type="submit" value="submit">
+	</form>
+</body>
+</html>
+
