@@ -13,8 +13,9 @@
   "engines": {
     "node": "6.10.2"
   },
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  
+  "repository": {
+  	"type": "git",
+  	"url": "https://git.heroku.com/andersonerichsen.git"
+  }
 }
+

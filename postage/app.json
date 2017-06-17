@@ -1,3 +1,4 @@
 {
-  "name": "node-postage-app"  
+  "name": "node-postage-app",  
+  "repository" : "https://git.heroku.com/andersonerichsen.git"
 }
